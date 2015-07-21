@@ -3,7 +3,7 @@
  * Plugin Name: WP Function Links
  * Plugin URI: http://polepositionmarketing.com
  * Description: Use a shortcode to generate clickable links that do NOT pass on link juice in order to boost the link value of the other links on the page.
- * Version: 1.1.0
+ * Version: 1.1.5
  * Author: Pole Position Marketing
  * Author URI: http://polepositionmarketing.com
  * Text Domain: wp_function_links
