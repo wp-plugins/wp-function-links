@@ -96,6 +96,48 @@ span.wpfl_tooltip_show {
   font-size: 11px;
 }
 
+.tabBlock-pane.description ul {
+  list-style: disc;
+  margin-left: 3em;
+}
+.tabBlock-pane.description ul li {
+  float: left;
+  width: 33%;
+}
+.tabBlock-pane.description ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width : 480px ) {
+  .tabBlock-pane.description ul li {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (max-width : 380px ) {
+  .tabBlock-pane.description ul li {
+    float: none;
+    width: 100%;
+  }
+}
+
+#author_information {
+  color: #949494;
+  margin-left: 1.75em;
+}
+#author_information a {
+  color: #747474;
+}
+ul#social_links li {
+  float: left;
+  margin: 0 1em;
+}
+ul#social_links li:first-child {
+  margin-left: 0;
+}
+
 /* 
 
 *** Tabs Plugin ***
@@ -118,10 +160,6 @@ span.wpfl_tooltip_show {
   box-sizing: border-box;
 }
 
-.wpfl figure.tabBlock {
-  margin-top: 5%;
-}
-
 .wpfl figure p,figure ol,figure ul {
   margin-bottom: 1.25rem;
   margin-top: 0;
@@ -140,7 +178,7 @@ span.wpfl_tooltip_show {
 }
 
 .wpfl .tabBlock {
-  margin: 0 0 2.5rem;
+  margin: 5% 0 0.5rem;
 }
 
 .wpfl .tabBlock-tab {

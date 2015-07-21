@@ -14,18 +14,46 @@ function wpFunctionLinksAdminScreen() {
         
         <!-- Tab Navigation -->
         <ul class="tabBlock-tabs">
+          <li class="tabBlock-tab">Description</li>
           <li class="tabBlock-tab">How It Works</li>
           <li class="tabBlock-tab is-active">Use</li>
           <li class="tabBlock-tab">Plugin Settings</li>
-          <li class="tabBlock-tab">About</li>
+          <li class="tabBlock-tab">Support</li>
         </ul>
         
         <!-- BEG Tab Content -->
         <div class="tabBlock-content">
+          <!-- "Description" Tab Content -->
+          <div class="tabBlock-pane description">
+
+            <h3>The Problem</h3>
+            <p>Many website links are not actually links to new or unique content but functions for the visitor. However, because these functions often lead to unique web URLs, search engines allow those “links” to lose link value. Value that is ultimately lost on URLs that produce no inherent value to searchers.</p>
+
+            <h3>Types of Functions</h3>
+            <p>The following are typical functions that utilize traditional hyperlinks. More often than not, you never want searchers to land on these unique URLs.</p>
+            <ul>
+              <li>sort</li>
+              <li>compare</li>
+              <li>add to cart</li>
+              <li>filter</li>
+              <li>email</li>
+              <li>email this page</li>
+              <li>view cart</li>
+              <li>view account</li>
+              <li>login</li>
+              <li>logout</li>
+              <li>socialize</li>
+              <li>add to wishlist</li>
+              <li>review</li>
+            </ul>
+            <h3>The Solution</h3>
+            <p>WP Function Links plugin allows you to create clickable hyperlinks on your WordPress site specifically for these types of functions. The plugin creates the ability for you to remove these functions from traditional a href links. The visitor is then able execute the function no differently than before but without it being treated as a link to another URL.</p>
+            <p>Since these functions are generally not accessible to most search engine bots it won’t interfere with the search engine spidering processes, allowing the search engines to use their resources following actual links to valuable pages. </p>
+          </div>
           <!-- "How It Works" Tab Content -->
           <div class="tabBlock-pane">
             <h3>How WP Function Links Works</h3>
-            <p>WP Function Links plugin allows you to create clickable hyperlinks on your WordPress site specifically for user functions such as “email this page” or “view my account”. These function links are not accessible to most search engine bots so won’t interfere with the search engine spidering processes and allow search engines to use their resources following actual links to valuable pages. By using the shortcode below, the plugin dynamically generates functional hyperlinks using vanilla Javascript that look and respond just like the real thing. The user experience is seamless.</p>
+            <p>By using the shortcode below on each function link, the plugin will dynamically generate functional hyperlinks using vanilla Javascript that look and respond just like the real thing. The user experience is seamless.</p>
             <p>This plugin should work in all modern browsers, but is incompatible with IE versions 8 and 9 (approximately 4% of all web users).</p>
           </div>
           <!-- "Use" Tab Content -->
@@ -43,7 +71,7 @@ function wpFunctionLinksAdminScreen() {
               
               <section class="option_description">
                 <h4>Optional: Set the link's target</h4>
-                <p>The shorcode accepts a "target" attribute. This attribute controls how "link" will be opened and has a default value of "_self" to open links in the current window/tab. The following list contains the accepted attribute values.</p>
+                <p>The shortcode accepts a "target" attribute. This attribute controls how "link" will be opened and has a default value of "_self" to open links in the current window/tab. The following list contains the accepted attribute values.</p>
                 <ul class="acceptedValues">
                   <li>_blank</li>
                   <li>_parent</li>
@@ -57,7 +85,7 @@ function wpFunctionLinksAdminScreen() {
               <section class="option_description">
                 <h4>Optional: Set the link's title</h4>
                 <p>The shortcode also accepts one more attribute, the "title". This title attribute will be the text that displays when a user hovers over the text. To use this attribute follow this example, replacing the bolded text:</p>
-                <div class="code">[function_link url="<b>DESTINATION_URL_GOES_HERE</b>" title="<b>This_is_my_title!</b>"]<b>link_text_goes_here</b>[/function_link]</div>
+                <div class="code">[function_link url="<b>DESTINATION_URL_GOES_HERE</b>" title="<b>Link_Title_Goes_Here!</b>"]<b>link_text_goes_here</b>[/function_link]</div>
               </section>
               
             </section>
@@ -109,12 +137,26 @@ function wpFunctionLinksAdminScreen() {
           </div>
           <!-- "About" Tab Content -->
           <div class="tabBlock-pane">  
-            <p>This plugin is developed and maintained by <a href="http://www.polepositionmarketing.com" target="_blank">Pole Position Marketing</a>.</p>
+            <h3>Have an issue?</h3>
+            <p>Let us know about any issues, bugs, or feature requests on <a href="https://wordpress.org/support/plugin/wp-function-links" target="_blank">our support page</a>.</p>
           </div>
         </div>
         <!-- END Tab Content -->
         
       </figure>
+      
+      <section id="author_information">
+        <p>This plugin is developed and maintained by <a href="http://www.polepositionmarketing.com" target="_blank">Pole Position Marketing</a>.</p>
+        
+        <ul id="social_links">
+          <li><a href="https://wordpress.org/support/profile/polepositionmarketing" target="_blank">WordPress</a></li>
+          <li><a href="http://www.facebook.com/PolePositionMarketing" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/PolePositionMkg" target="_blank">Twitter</a></li>
+          <li><a href="http://www.linkedin.com/company/pole-position-marketing" target="_blank">LinkedIn</a></li>
+          <li><a href="https://plus.google.com/+PolePositionMarketing/posts" target="_blank">Google+</a></li>
+          <li><a href="http://www.youtube.com/user/PolePositionMKG" target="_blank">YouTube</a></li>
+        </ul>
+      </section>
       
     </div>
   </div>
