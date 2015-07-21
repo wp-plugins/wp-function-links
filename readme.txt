@@ -1,9 +1,9 @@
-=== WP Function Links ===
+﻿=== WP Function Links ===
 Requires at least: 2.5
 Tested up to: 4.2.2
 License: GPL2
 Contributors: polepositionmarketing
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 
 
 Use a shortcode to generate clickable links that do NOT pass on link juice in order to boost the link value of the other links on the page.
@@ -73,6 +73,9 @@ Since these functions are generally not accessible to most search engine bots it
 
 
 == Changelog ==
+= 1.1.4 =
+* Fixed stable tag issue
+
 = 1.1.3 =
 * Updated the plugin's repository description and infromation tabs to be more legible (better MarkDown)
 
